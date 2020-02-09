@@ -18,6 +18,8 @@ namespace Ab732015MIS4200.Models
         public int patientId { get; set; }
         public virtual Patient Patient { get; set; }
 
+        public int hospitalId { get; set; }
+
 
     }
 }
